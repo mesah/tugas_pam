@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jquery Sample</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<link rel="import" href="index3.html">
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.js"></script>
+</head>
+<body>	
+	<div data-role="page" id="main" data-theme="a">
+		<div data-role="header" data-position="fixed">
+		<!--	<a href="" data-icon="home">Home</a> -->
+			<h1>Info Kuliner Nusantara</h1>
+			<a href="#secondPage" data-icon="info" data-role = "button" data-theme= "b">About</a>
+		</div>
+		
+		
+		<div data-role="collapsible">
+			<h3  data-ul = "true" data-count = "true">Sumatera Utara</h3>
+			<ul data-role="listview" data-filter="true" data-inset= "true">
+				<li style="padding:2pt">
+					<a href="#arsik"> 
+						<img src="img/sumut/arsik.jpg"/>
+						<h4>Arsik</h4>
+						<p>Kuliner Sumatera Utara</p>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#lemang"> 
+						<img src="img/sumut/lemang.jpg"/>
+						<h4>Lemang</h4>
+						<p>Kuliner Sumatera Utara</p>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#bika"> 
+						<img src="img/sumut/bika.jpg"/>
+						<h4>Bika Ambon</h4>
+						<p>Kuliner Sumatera Utara</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		<div data-role="collapsible">
+			<h3>Jawa Tengah</h3>
+			<ul data-role="listview" data-filter="true" data-inset= "true">
+				<li style="padding:2pt">
+					<a href="#petis"> 
+						<img src="img/jateng/petis.png"/>
+						<h4>Tahu Petis</h4>
+						<p>Kuliner Jawa Tengah</p>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#soto"> 
+						<img src="img/jateng/soto.jpg"/>
+						<h4>Soto</h4>
+						<p>Kuliner Jawa Tengah</p>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#enting"> 
+						<img src="img/jateng/eting.png"/>
+						<h4>Enting-enting Gepur</h4>
+						<p>Kuliner Jawa Tengah</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		<div data-role="footer" data-position="fixed">   
+			<h4>Mesah &copy; 2015</h4>
+		</div>
+	</div>
+	
+	<div data-role="page" id="secondPage" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+			<p>
+				Makanan adalah bahan, biasanya berasal dari hewan atau tumbuhan, yang dimakan oleh makhluk hidup mendapatkan tenaga dan nutrisi. Cairan yang dipakai untuk maksud ini sering disebut minuman, tetapi kata 'makanan' juga bisa dipakai. Istilah ini kadang-kadang dipakai dengan kiasan, seperti "makanan untuk pemikiran". Kecukupan makanan dapat dinilai dengan status gizi secara antropometri.
+
+Makanan yang dibutuhkan manusia biasanya diperoleh dari hasil bertani atau berkebun yang meliputi sumber hewan, dan tumbuhan. Beberapa orang menolak untuk memakan makanan dari hewan seperti, daging, telur, dan lain-lain. Mereka yang tidak suka memakan daging, dan sejenisnya disebut vegetarian yaitu orang yang hanya memakan sayuran sebagai makanan pokok mereka.
+
+Pada umumnya bahan makanan mengandung beberapa unsur atau senyawa seperti air, karbohidrat, protein, lemak, vitamin, enzim, pigmen dan lain-lain.
+			</p>			
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="arsik" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Info</h1>
+		</div>
+		<div data-role="content"align = "center">
+			<img  height = "150" widht ="150" src= "img/sumut/arsik.jpg"></img>
+		</div>
+		<div>
+			<p>
+				Arsik adalah salah satu masakan khas kawasan Tapanuli yang populer. Masakan ini dikenal pula sebagai 
+				ikan mas bumbu kuning. Ikan mas adalah bahan utama, yang dalam penyiapannya tidak dibuang sisiknya.
+				Bumbu arsik sangat khas, mengandung beberapa komponen yang khas dari wilayah pegunungan Sumatera Utara, seperti andaliman 
+				dan asam cikala (buah kecombrang), selain bumbu khas Nusantara yang umum, seperti lengkuas dan serai. Bumbu-bumbu yang dihaluskan dilumuri pada tubuh ikan beberapa saat. Ikan kemudian dimasak dengan sedikit minyak dan api kecil hingga agak mengering.
+			</p>			
+		</div>
+		</div>
+	
+		<div data-role="page" id="lemang" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Info</h1>
+		</div>
+		<div data-role="content" align = "center">
+		<img  height = "150" widht ="150" src= "img/sumut/lemang.jpg"></img>
+		</div>
+		
+		<div>
+			<p>
+				Lemang merupakan makanan dari beras ketan yang dimasak dalam seruas bambu, setelah sebelumnya digulung dengan selembar 
+				daun pisang. Gulungan daun bambu berisi tepung beras bercampur santan kelapa ini kemudian dimasukkan ke dalam seruas bambu 
+				lalu dibakar sampai matang. Lemang lebih nikmat disantap hangat-hangat. Cara memakan lemang berbeda dari daerah ke daerah. 
+				Ada orang yang senang menikmatinya dengan cara manis (selai, kinca, serikaya) atau dengan cara asin (rendang, telur, dan lauk-pauk lainnya), 
+				atau ada juga yang memakannya dengan buah-buahan seperti durian. Salah satu kota yang memproduksi lemang ini adalah daerah Pakkat – Humbang 
+				Hasundutan dengan rasa yang sangat enak.
+			</p>			
+		</div>
+		</div>
+		
+		<div data-role="page" id="bika" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Info</h1>
+		</div>
+		<div data-role="content" align = "center">
+		<img  height = "150" widht ="150" src= "img/sumut/bika.jpg"></img>
+		</div>
+		<div>
+			<p>
+				Bika ambon adalah sejenis penganan asal Indonesia. Terbuat dari bahan-bahan seperti telur, 
+				gula, dan santan, bika ambon umumnya dijual dengan rasa pandan, meskipun kini juga tersedia 
+				rasa-rasa lainnya seperti durian, keju, dan cokelat.
+				Asal-muasal bika ambon tidak diketahui dengan jelas. Walaupun namanya mengandung kata “ambon”, 
+				bika ambon justru dikenal sebagai oleh-oleh khas Kota Medan, Sumatera Utara. Di Medan, Jalan Mojopahit 
+				di daerah Medan Petisah merupakan kawasan penjualan bika ambon yang paling terkenal.
+			</p>			
+		</div>
+		</div>
+		
+		<div data-role="page" id="petis" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Info</h1>
+		</div>
+		<div data-role="content" align = "center">
+		<img  height = "150" widht ="150" src= "img/jateng/petis.png"></img>
+		</div>
+		<div>
+			<p>
+				Tahu Petis merupakan makanan dari daerah Jawa Tengah khususnya daerah Semarang. 
+				Tahu Petis sering kali dihidangkan untuk menu lauk ataupun hanya sekedar untuk 
+				camilan atau snack. Tahu Petis berbahan dasar tahu seperti namanya dengan pemasakannya dengan cara digoreng. 
+				Tahu ini dimakan dengan menggunakan saus hitam yang sering dinamakan dengan petis. Petis ini biasanya berasal 
+				dari kuah yang dimasak lama dan didinginkan.
+			</p>			
+		</div>
+		</div>
+		
+		<div data-role="page" id="soto" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Info</h1>
+		</div>
+		<div data-role="content" align = "center">
+		<img  height = "150" widht ="150" src= "img/jateng/soto.jpg"></img>
+		</div>
+		<div>
+			<p>
+				Soto Kudus. Kudus memang terkenal dengan sotonya yang khas dan nikmat. Memang sepintas soto tersebut sama seperti soto pada umunya, 
+				namun setelah anda mencicipi rasanya, tentu anda akan merasakan kenikmatan tersendiri yang akan membuat anda datang lagi untuk menikmati 
+				soto Kudus ini. Ada 2 pilihan untuk soto kudus, yaitu soto ayam dan soto kerbau
+				. - See more at: http://huruharada.blogspot.com/2013/02/masakan-tradisional-khas-jawa-tengah.html#sthash.xfnCgYwB.dpuf
+			</p>			
+		</div>
+		</div>
+		
+		<div data-role="page" id="enting" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>Info</h1>
+		</div>
+		<div data-role="content" align = "center">
+		<img  height = "150" widht ="150" src= "img/jateng/eting.png"></img>
+		</div>
+		<div>
+			<p>
+				Makanan ini merupakan makanan khas Jawa Tengah yang berasal dari daerah kota Salatiga. Enting-Enting Gepuk merupakan makanan 
+				yang berbahan dasar kacang seperti digepuk atau ditumbuk yang kemudian dipadatkan atau disatukan kembali dengan gula jawa. 
+				Makanan ini adalah jenis makanan yang sangat diminati oleh para pengunjung daerah Jawa Tengah karena ini merupakan salah satu 
+				makanan yang membedakan daerah Jawa Tengah dengan daerah lain.
+			</p>			
+		</div>
+		</div>
+</body>
+</html>
